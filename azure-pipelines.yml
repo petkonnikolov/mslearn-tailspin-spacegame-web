@@ -25,7 +25,7 @@ steps:
   displayName: 'Run npm install'
   inputs:
     command: install
-    verbose: false
+    verbose: true
 
 - script: './node_modules/.bin/node-sass Tailspin.SpaceGame.Web/wwwroot --output Tailspin.SpaceGame.Web/wwwroot'
   displayName: 'Compile Sass assets'
